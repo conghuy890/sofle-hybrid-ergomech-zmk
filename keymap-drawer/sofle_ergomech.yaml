@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', GLOBE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   lower:
   - '&studio_unlock'
   - F1
@@ -9,48 +9,48 @@ layers:
   - F3
   - F4
   - F5
+  - HOME
+  - BACKSPACE
+  - KP DIVIDE
+  - KP ASTERISK
+  - KP SUBTRACT
+  - {t: ▽, type: trans}
+  - '`'
   - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - PAGE UP
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - F12
+  - F11
+  - PAGE DOWN
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - ''
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - +
-  - '{'
-  - '}'
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - END
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP ENTER
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -59,9 +59,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
+  - KP 0
+  - KP DOT
   - A
   - B
   - C
@@ -92,7 +92,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - LALT
   - LCTRL
   - LSHFT
@@ -104,7 +104,7 @@ layers:
   - RIGHT
   - DEL
   - BSPC
-  - {t: ▽, type: trans}
+  - \
   - UNDO
   - CUT
   - COPY
