@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - ''
+  - Sft+\
   - ''
   - ''
   - ''
@@ -91,7 +91,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
