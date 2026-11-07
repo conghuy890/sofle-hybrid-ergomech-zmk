@@ -85,10 +85,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp LS(BACKSLASH)  &none       &none      &none       &none             &kp EQUAL          &none   &none   &none   &none   &none   &none
-&none              &none       &none      &none       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none   &none   &none   &none   &trans
-&none              &none       &none      &none       &kp BACKSLASH     &kp LA(N3)         &none   &none   &none   &none   &none   &none
-&none              &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE       &none              &none   &none   &none   &none   &none   &none
+&kp LS(BACKSLASH)  &none       &none      &none       &none             &kp EQUAL          &none   &none   &none   &none   &none    &none
+&none              &none       &none      &none       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none   &none   &none   &none    &trans
+&none              &none       &none      &none       &kp BACKSLASH     &kp LA(N3)         &none   &none   &none   &none   &kp DEL  &none
+&none              &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE       &none              &none   &none   &none   &none   &none    &none
 &trans             &trans      &trans     &trans      &trans            &trans             &trans  &trans  &trans  &trans  &trans
                                                                                            &trans  &trans  &trans  &trans  &trans
             >;
